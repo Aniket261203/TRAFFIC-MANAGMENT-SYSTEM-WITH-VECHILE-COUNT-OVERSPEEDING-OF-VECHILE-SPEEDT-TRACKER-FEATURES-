@@ -44,10 +44,10 @@ count = 0  # Frame counter for processing
 # Function to send SMS notification
 def send_sms(violator_data):
     # Twilio settings
-    account_sid = "AC8f104987fe81837a7d3d3d2663f958f2"  # Replace with your Twilio Account SID
-    auth_token = "3e6a380ab15d5d6365e0880230f4486e"  # Replace with your Twilio Auth Token
-    from_phone_number = "+15856343197"  # Replace with your Twilio phone number (e.g., +1xxxxxxxxxx)
-    to_phone_number = "+916388644038"  # Replace with the recipient's phone number (e.g., +1xxxxxxxxxx)
+    account_sid = "*****************"  # Replace with your Twilio Account SID
+    auth_token = "*******************"  # Replace with your Twilio Auth Token
+    from_phone_number = "**************"  # Replace with your Twilio phone number (e.g., +1xxxxxxxxxx)
+    to_phone_number = "*****************"  # Replace with the recipient's phone number (e.g., +1xxxxxxxxxx)
 
     # Create Twilio client
     client = Client(account_sid, auth_token)
